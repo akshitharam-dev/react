@@ -7,7 +7,7 @@ const ResturantCard = ({resName, cusine, starRating, eta, img}) => {
             <h3 className='res-name'>{resName}</h3>
             <h4 className='res-cusine'>{cusine}</h4>
             <h4 className='res-star'>{starRating}</h4>
-            <h4 className='res-timing'>{eta} minutes</h4>
+            <h4 className='res-timing'>{eta}</h4>
         </div>
     )
 
